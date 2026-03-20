@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7a00fcd-b03f-43af-9f94-52154f9bfccb" name="Changes" comment="" />
+    <list default="true" id="d7a00fcd-b03f-43af-9f94-52154f9bfccb" name="Changes" comment="init 初始化服务">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpo-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cpo-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpo-service/src/main/java/com/halo/ocpi/cpo/controller/CredentialsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cpo-service/src/main/java/com/halo/ocpi/cpo/controller/CredentialsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpo-service/src/main/java/com/halo/ocpi/cpo/util/RedisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpo-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cpo-service/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +42,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+        <option name="customMavenHome" value="/Applications/file/maven/apache-maven-3.9.14" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="/Applications/file/maven/apache-maven-3.9.14/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -49,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.CpoServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.OcpiServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -58,9 +68,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CpoServiceApplication.executor&quot;: &quot;Debug&quot;,
     &quot;Spring Boot.OcpiServiceApplication.executor&quot;: &quot;Debug&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/IdeaProjects/ocpi-service/cpo-service/src/main/java/com/halo/ocpi/cpo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -69,10 +81,15 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cpo-service/src/main/java/com/halo/ocpi/cpo" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -84,6 +101,7 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
+              <entry key="CpoServiceApplication" value="STOPPED" />
               <entry key="OcpiServiceApplication" value="STOPPED" />
             </map>
           </value>
@@ -91,7 +109,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CpoServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CpoServiceApplication">
     <configuration name="CpoServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.halo.ocpi.cpo.CpoServiceApplication" />
       <module name="cpo-service" />
@@ -172,10 +190,27 @@
       <workItem from="1773975373255" duration="115000" />
       <workItem from="1773975497881" duration="155000" />
       <workItem from="1773975657943" duration="276000" />
+      <workItem from="1773975946877" duration="2643000" />
+      <workItem from="1773980558084" duration="113000" />
+      <workItem from="1773980681313" duration="317000" />
+      <workItem from="1773981008223" duration="1285000" />
     </task>
+    <task id="LOCAL-00001" summary="init 初始化服务">
+      <option name="closed" value="true" />
+      <created>1773976230683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773976230683</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init 初始化服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 初始化服务" />
   </component>
 </project>
